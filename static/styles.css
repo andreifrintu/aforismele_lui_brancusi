@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+/*
+    facem variabile pentru fiecare culoare
+    astfel sa fie usor de refolosit
+*/
+:root {
+    --white: #ffffffff;
+    --black: #000000ff;
+    --orange-pantone: #fb5607ff;
+    --blue-munsell: #118b9eff;
+    --penn-blue: #001c55ff;
+    --oxford-blue: #00072dff;
+}
