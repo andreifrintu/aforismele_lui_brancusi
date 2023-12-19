@@ -12,7 +12,6 @@
 
         ! Pagina cu form de inscriere
     */
-
 ?>
 <!DOCTYPE html>
 <html lang="ro">

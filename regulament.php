@@ -12,7 +12,6 @@
 
         ! Pagina cu regulamentul
     */
-
 ?>
 <!DOCTYPE html>
 <html lang="ro">
