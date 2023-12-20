@@ -12,6 +12,8 @@
 
         ! Pagina cu regulamentul
     */
+
+    $router['page'] = "regulament";
 ?>
 <!DOCTYPE html>
 <html lang="ro">

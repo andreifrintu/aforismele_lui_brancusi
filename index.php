@@ -12,6 +12,8 @@
 
         ! Pagina de acasa + despre
     */
+
+    $router['page'] = "acasa";
 ?>
 <!DOCTYPE html>
 <html lang="ro">

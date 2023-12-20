@@ -12,6 +12,8 @@
 
         ! Pagina cu form de inscriere
     */
+
+    $router['page'] = "inscrieri";
 ?>
 <!DOCTYPE html>
 <html lang="ro">
@@ -25,6 +27,7 @@
     <!-- includem componenta de navbar --->
     <?php include_once('static/pages/navbar.php'); ?>
 
+    
 
     <!-- includem componenta de footer --->
     <?php include_once('static/pages/footer.php'); ?>

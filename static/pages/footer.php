@@ -20,35 +20,22 @@
 <!-- importam libraria BootstrapJS --->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!DOCTYPE html>
-<html lang="ro">
-<body>
-<div class="container d-flex flex-column min-vh-100">
-  <footer class="mt-auto d-flex justify-content-center flex-wrap row row-cols-1 row-cols-md-3 py-5 my-1 border-top">
-    <div class="col-3 mb-3">
-      <img src="static/imagini\logo/logo cntv.png" class="me-auto img-fluid" style="max-width: 100%">
+<div class="container d-flex flex-column w-sm-100 pb-2">
+  <footer class="mt-auto fl-cont d-flex w-sm-100 justify-content-between flex-wrap pt-3 my-1 border-top">
+    <div class="col-3 text-center w-sm-100">
+      <a href="https://cntv-edu.ro/" class=""><img src="static/imagini\logo/logo cntv.png" class="m-auto w-100"></a>
+      <p>&reg; Aforismele lui Brâncuși - Colegiul Național „Tudor Vladimirescu” Târgu Jiu</p>
     </div>
-    <div class="col-3 mb-3 align-items-end">
-      <h5 style="text-align:right">Secțiuni</h5>
-      <ul class="nav flex-column align-items-end  ">
-        <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-muted">Acasă</a></li>
-        <li class="nav-item mb-2"><a href="inscrieri.php" class="nav-link p-0 text-muted">Înscriere</a></li>
-        <li class="nav-item mb-2"><a href="regulament.php" class="nav-link p-0 text-muted">Regulament</a></li>
-        <li class="nav-item mb-2"><a href="arhiva.php" class="nav-link p-0 text-muted">Arhivă</a></li>
+    <div class="col-3 align-items-end w-sm-100">
+      <h5 class="text-end text-galben">Secțiuni din site</h5>
+      <ul class="nav flex-column align-items-end">
+        <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-secondary">Acasă</a></li>
+        <li class="nav-item mb-2"><a href="inscrieri.php" class="nav-link p-0 text-secondary">Înscriere</a></li>
+        <li class="nav-item mb-2"><a href="regulament.php" class="nav-link p-0 text-secondary">Regulament</a></li>
+        <li class="nav-item mb-2"><a href="arhiva.php" class="nav-link p-0 text-secondary">Arhivă</a></li>
+        <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-secondary">Listă participanți</a></li>
       </ul>
     </div>
-    <div class="col-3 mb-3 row align-items-center">
-      <form method="POST" class="d-flex justify-content-center" action="admin/login.php">
-        <button class="btn btn-primary " type="submit">Conectare</button>
-      </form>
-      <form method="POST" class="d-flex justify-content-center" action="admin/login.php">
-        <button class="btn btn-primary" type="submit">Listă participanți</button>
-      </form>
-    </div>
-      <!-- cum schimb culoarea la text in functie de pagina? (daca sunt pe acasa sa fie culoarea text-secondary in loc de text-white)
-            si cum sa fac sa nu se poata apasa pe link pagina resp !-->
   </footer>
+  <div class="m-auto gap-2 text-center mb-0"><span>&copy; dezvoltat de</span><br><a class="text-galben" href="https://codulluiandrei.ro/">@andreifrintu</a> <a class="text-galben" href="#">Daniel Tudorescu</a> <a class="text-galben" href="#">David Petreuș</a></div>
 </div>
-
-</body>
-</html>

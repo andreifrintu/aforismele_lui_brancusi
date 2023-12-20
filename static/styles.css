@@ -12,3 +12,45 @@
     --penn-blue: #001c55ff;
     --oxford-blue: #00072dff;
 }
+
+a {
+    text-decoration: none !important;
+}
+.text-galben {
+    color: var(--orange-pantone) !important;
+}
+.bg-albastru {
+    background-color: var(--oxford-blue) !important;
+}
+a {
+    transition: .2s;
+}
+a.text-galben:hover {
+    transition: .2s;
+    color: var(--oxford-blue) !important;
+}
+.nav-link {
+    color: var(--white) !important;
+    transition: .2s;
+}
+.nav-link:hover {
+    color: var(--orange-pantone) !important;
+    transition: .2s;
+}
+a > svg > #logo {
+    fill: var(--blue-munsell) !important;
+    transition: .2s;
+}
+a:hover > svg > #logo {
+    fill: var(--orange-pantone) !important;
+    transition: .2s;
+}
+
+@media (max-width: 425px) {
+    .fl-cont {
+        flex-direction: column !important;
+    }
+    .w-sm-100 {
+        width: 100% !important;
+    }
+}

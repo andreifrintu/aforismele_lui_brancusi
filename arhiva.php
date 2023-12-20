@@ -13,6 +13,7 @@
         ! Pagina cu arhiva castigatorilor
     */
 
+    $router['page'] = "arhiva";
 ?>
 <!DOCTYPE html>
 <html lang="ro">
