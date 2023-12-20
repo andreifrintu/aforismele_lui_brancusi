@@ -24,6 +24,9 @@
 
     <!-- includem componenta de navbar --->
     <?php include_once('static/pages/navbar.php'); ?>
+    <div class="mx-auto" style="width:50%">
+        <img src="static/imagini\logo/logo color 2023.png" class="bi me-auto img-fluid mt-5">
+    </div>
     <!-- includem componenta de footer --->
     <?php include_once('static/pages/footer.php'); ?>
 
