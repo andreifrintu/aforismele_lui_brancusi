@@ -23,24 +23,30 @@
 <!DOCTYPE html>
 <html lang="ro">
 <body>
-<div class="container">
-  <footer class="d-flex justify-content-center flex-wrap row row-cols-1 row-cols-md-3 py-5 my-5 border-top">
-    <div class="col mb-3">
+<div class="container d-flex flex-column min-vh-100">
+  <footer class="mt-auto d-flex justify-content-center flex-wrap row row-cols-1 row-cols-md-3 py-5 my-1 border-top">
+    <div class="col-3 mb-3">
       <img src="static/imagini\logo/logo cntv.png" class="bi me-auto img-fluid" style="max-width: 100%">
     </div>
-    <div class="col-2 mb-3">
-        <button class="btn btn-primary" type="button">Conectare</button>
-        <button class="btn btn-primary" type="button">Listă participanți</button>
-    </div>
-    <div class="col mb-3">
-      <h5>Secțiuni</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Acasă</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inscrieri</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Regulament</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Arhivă</a></li>
+    <div class="col-3 mb-3 align-items-end">
+      <h5 style="text-align:right">Secțiuni</h5>
+      <ul class="nav flex-column align-items-end  ">
+        <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-muted">Acasă</a></li>
+        <li class="nav-item mb-2"><a href="inscrieri.php" class="nav-link p-0 text-muted">Înscriere</a></li>
+        <li class="nav-item mb-2"><a href="regulament.php" class="nav-link p-0 text-muted">Regulament</a></li>
+        <li class="nav-item mb-2"><a href="arhiva.php" class="nav-link p-0 text-muted">Arhivă</a></li>
       </ul>
     </div>
+    <div class="col-3 mb-3 row align-items-center">
+      <form method="POST" class="d-flex justify-content-center" action="admin/login.php">
+        <button class="btn btn-primary " type="submit">Conectare</button>
+      </form>
+      <form method="POST" class="d-flex justify-content-center" action="admin/login.php">
+        <button class="btn btn-primary" type="submit">Listă participanți</button>
+      </form>
+    </div>
+      <!-- cum schimb culoarea la text in functie de pagina? (daca sunt pe acasa sa fie culoarea text-secondary in loc de text-white)
+            si cum sa fac sa nu se poata apasa pe link pagina resp !-->
   </footer>
 </div>
 
