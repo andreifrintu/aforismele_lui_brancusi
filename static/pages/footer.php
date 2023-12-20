@@ -26,7 +26,7 @@
 <div class="container d-flex flex-column min-vh-100">
   <footer class="mt-auto d-flex justify-content-center flex-wrap row row-cols-1 row-cols-md-3 py-5 my-1 border-top">
     <div class="col-3 mb-3">
-      <img src="static/imagini\logo/logo cntv.png" class="bi me-auto img-fluid" style="max-width: 100%">
+      <img src="static/imagini\logo/logo cntv.png" class="me-auto img-fluid" style="max-width: 100%">
     </div>
     <div class="col-3 mb-3 align-items-end">
       <h5 style="text-align:right">Secțiuni</h5>
