@@ -40,7 +40,7 @@
 
     <div class="invisible p-3">.</div>
 
-    <h1 class="fs-4 text-center mt-2">Completează formularul de mai jos pentru a te înscrie la concursul național „<span class="text-galben">Aforismele lui Brâncuși</span>”</h1>
+    <h1 class="fs-1 text-center mt-2">Completează formularul de mai jos pentru a te înscrie la<br>Concursul Național „<span class="text-galben">Aforismele lui Brâncuși</span>”</h1>
 
     <div class="w-sm-90 m-auto p-3">
 
@@ -75,11 +75,11 @@
         ?>
 
         <form method="POST" enctype="multipart/form-data">
-            <input required name="nume" type="text" class="form-control fw-bold mb-2 text-secondary" placeholder="Numele tău...">
-            <input required name="prenume" type="text" class="form-control fw-bold mb-2 text-secondary" placeholder="Prenumele tău...">
-            <input required name="email" type="mail" class="form-control fw-bold mb-2 text-secondary" placeholder="Email-ul tău...">
-            <input required name="profesor" type="text" class="form-control fw-bold mb-2 text-secondary" placeholder="Profesorul tău coordonator...">
-            <select required name="clasa" id="clasa" class="form-select form-control fw-bold mb-2 text-secondary">
+            <input required name="nume" type="text" class="form-control fw-bold mb-2 fs-5 text-secondary" placeholder="Numele tău...">
+            <input required name="prenume" type="text" class="form-control fw-bold mb-2 fs-5 text-secondary" placeholder="Prenumele tău...">
+            <input required name="email" type="mail" class="form-control fw-bold mb-2 fs-5 text-secondary" placeholder="Email-ul tău...">
+            <input required name="profesor" type="text" class="form-control fw-bold mb-2 fs-5 text-secondary" placeholder="Profesorul tău coordonator...">
+            <select required name="clasa" id="clasa" class="form-select form-control fw-bold mb-2 fs-5 text-secondary">
                 <option selected>Clasa ta...</option>
                 <option value="5">V (5)</option>
                 <option value="6">VI (6)</option>
@@ -90,7 +90,7 @@
                 <option value="11">XI (11)</option>
                 <option value="12">XII (12)</option>
             </select>
-            <select required disabled name="judet" id="judet" class="form-select form-control fw-bold mb-2 text-secondary">
+            <select required disabled name="judet" id="judet" class="form-select form-control fw-bold mb-2 fs-5 text-secondary">
                 <option selected>Județul tău...</option>
                 <option value="AB">Alba</option>
                 <option value="AR">Arad</option>
@@ -135,14 +135,14 @@
                 <option value="VL">Vâlcea</option>
                 <option value="VN">Vrancea</option>
             </select>
-            <select required disabled name="sectiune" id="sectiune" class="form-select form-control fw-bold mb-2 text-secondary">
+            <select required disabled name="sectiune" id="sectiune" class="form-select form-control fw-bold mb-2 fs-5 text-secondary">
                 <option selected>Secțiunea...</option>
                 <option value="eseu">Eseu</option>
                 <option value="desen">Desen</option>
             </select>
-            <p class="mb-0 fs-6 fw-bold text-secondary text-justify">Încarcă <span id="span_material">materialul</span>...</p>
-            <input required disabled required id="input_material" name="material" type="file" class="form-control fw-bold mb-2 text-secondary" accept="image/*">
-            <button type="submit" class="btn w-100 fw-bold btn-outline-secondary">Înscrie-te</button>
+            <p class="mb-0 fs-6 fw-bold fs-5 text-secondary text-justify">Încarcă <span id="span_material">materialul</span>...</p>
+            <input required disabled required id="input_material" name="material" type="file" class="form-control fw-bold mb-2 fs-5 text-secondary" accept="image/*">
+            <button type="submit" class="btn w-100 fw-bold fs-5 btn-outline-secondary">Înscrie-te</button>
         </form>
     </div>
 

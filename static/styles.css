@@ -16,9 +16,27 @@
 a {
     text-decoration: none !important;
 }
+ul {
+    list-style: none;
+}
+.text-justify ul li::before {
+    content: "\25B8";
+    color: var(--blue-munsell);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
 .text-galben {
     color: var(--orange-pantone) !important;
 }
+.text-albastru {
+    color: var(--blue-munsell) !important;
+}
+.text-underline {
+    text-decoration: underline !important;
+    text-decoration-color: var(--orange-pantone) !important;
+} 
 .bg-albastru {
     background-color: var(--oxford-blue) !important;
 }
@@ -62,6 +80,9 @@ a:hover > svg > #logo {
 }
 .w-md-100 {
     width: 75% !important;
+}
+.text-justify {
+    text-align: justify !important;
 }
 
 @media (max-width: 425px) {
