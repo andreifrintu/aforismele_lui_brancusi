@@ -26,6 +26,15 @@
         echo "Conexiunea a eșuat!";
     }
 
+    if (isset($_GET['material'])) {
+        $file = $_GET['material'];
+        $ext = pathinfo($file, PATHINFO_EXTENSION);
+        $nume = mysqli_fetch_row(mysqli_query($conn, "SELECT `nume` FROM `inscrieri` WHERE `material` = '" . $_GET['material'] . "'"))[0];
+        $prenume = mysqli_fetch_row(mysqli_query($conn, "SELECT `prenume` FROM `inscrieri` WHERE `material` = '" . $_GET['material'] . "'"))[0];
+        header('Content-Disposition: attachament; filename="' . $nume . "-" . $prenume . '.' . $ext);
+        readfile($file);
+    }
+
     if (isset($_SESSION['login']) && $_SESSION['login'] == 1) {
         $user = mysqli_real_escape_string($conn, $_SESSION['user']);
         $pass = mysqli_real_escape_string($conn, $_SESSION['pass']);
@@ -37,6 +46,22 @@
         if ($result) {
             $storedPassword = $result['pass'];
             if ($pass == $result['pass']) {
+
+                if (isset($_GET['descarca'])) {
+                    require_once 'PhpXlsxGenerator.php'; 
+                    $fileName = "inscrieri-Aforismele-lui-Brancusi-" . date('Y-m-d') . ".xlsx"; 
+                    $excelData[] = array('Nr. Crt.', 'Nume', 'Prenume', 'Clasa', 'Județ', 'Secțiune', 'Profesor', 'E-mail', 'Material'); 
+                    $contor = 0;
+                    $table = mysqli_query($conn, "SELECT * FROM `inscrieri` ORDER BY `id` ASC");
+                    while ($db = mysqli_fetch_assoc($table)) {
+                        $contor++;
+                        $lineData = array($contor, $db['nume'], $db['prenume'], $db['clasa'], $db['judet'], $db['sectiune'], $db['profesor'], $db['email'], "http://localhost/aforismele_lui_brancusi/admin/?material=" . $db['material']);  
+                        $excelData[] = $lineData; 
+                    }
+                    
+                    $xlsx = PhpXlsxGenerator::fromArray( $excelData ); 
+                    $xlsx->downloadAs($fileName); 
+                }
 ?>
 <!DOCTYPE html>
 <html lang="ro">
@@ -110,7 +135,7 @@
                 <?php
                     
                     $contor = 0;
-                    $table = mysqli_query($conn, "SELECT * FROM `inscrieri`");
+                    $table = mysqli_query($conn, "SELECT * FROM `inscrieri` ORDER BY `id` ASC");
                     while ($db = mysqli_fetch_assoc($table)) {
                         $contor++;
                         echo "<tr>";
@@ -120,7 +145,7 @@
                         echo '<td>' . $db['judet'] . '</td>';
                         echo '<td>' . $db['sectiune'] . '</td>';
                         echo '<td>' . $db['profesor'] . '</td>';
-                        echo '<td><a href="' . $db['material'] . '" download="' . $db['nume'] . "-" . $db['prenume'] . '">descarcă</a></td>';
+                        echo '<td><a href="' . substr($db['material'], 15) . '" download="' . $db['nume'] . "-" . $db['prenume'] . '">descarcă</a></td>';
                         echo '<td><span id="' . $db['id'] . '" class="d-none">' . $db['email'] . '</span><a id="a' . $db['id'] . '" href="#" onclick="showMail(' . $db['id'] . ')">afișează</a></td>';
                         echo "</tr>";  
                     }
