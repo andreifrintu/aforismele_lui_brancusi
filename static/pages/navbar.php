@@ -58,10 +58,10 @@
       </a>
 
         <ul class="nav col-12 fl-cont col-lg-auto ms-lg-auto justify-content-center mb-md-0">
-          <li><a href="index.php" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'acasa') ? "disabled text-secondary" : ""; ?>">Acasă</a></li>
-          <li><a href="inscrieri.php" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'inscrieri') ? "disabled text-secondary" : ""; ?>">Înscriere</a></li>
-          <li><a href="regulament.php" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'regulament') ? "disabled text-secondary" : ""; ?>">Regulament</a></li>
-          <li><a href="arhiva.php" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'arhiva') ? "disabled text-secondary" : ""; ?>">Arhivă</a></li>
+          <li><a href="/aforismele_lui_brancusi/" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'acasa') ? "disabled text-secondary" : ""; ?>">Acasă</a></li>
+          <li><a href="inscrieri" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'inscrieri') ? "disabled text-secondary" : ""; ?>">Înscriere</a></li>
+          <li><a href="regulament" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'regulament') ? "disabled text-secondary" : ""; ?>">Regulament</a></li>
+          <li><a href="arhiva" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'arhiva') ? "disabled text-secondary" : ""; ?>">Arhivă</a></li>
         </ul>
 
       </div>

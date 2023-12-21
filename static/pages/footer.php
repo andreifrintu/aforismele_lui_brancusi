@@ -29,10 +29,10 @@
     <div class="col-3 align-items-end w-sm-100">
       <h5 class="text-end text-galben">Secțiuni din site</h5>
       <ul class="nav flex-column align-items-end">
-        <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-secondary">Acasă</a></li>
-        <li class="nav-item mb-2"><a href="inscrieri.php" class="nav-link p-0 text-secondary">Înscriere</a></li>
-        <li class="nav-item mb-2"><a href="regulament.php" class="nav-link p-0 text-secondary">Regulament</a></li>
-        <li class="nav-item mb-2"><a href="arhiva.php" class="nav-link p-0 text-secondary">Arhivă</a></li>
+        <li class="nav-item mb-2"><a href="/aforismele_lui_brancusi/" class="nav-link p-0 text-secondary">Acasă</a></li>
+        <li class="nav-item mb-2"><a href="inscrieri" class="nav-link p-0 text-secondary">Înscriere</a></li>
+        <li class="nav-item mb-2"><a href="regulament" class="nav-link p-0 text-secondary">Regulament</a></li>
+        <li class="nav-item mb-2"><a href="arhiva" class="nav-link p-0 text-secondary">Arhivă</a></li>
         <li class="nav-item mb-2"><a href="admin/" class="nav-link p-0 text-secondary">Listă participanți</a></li>
       </ul>
     </div>
