@@ -82,6 +82,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- importam libraria BootstrapJS --->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- importam fotografia --->
+    <link rel="icon" type="image/x-icon" href="/aforismele_lui_brancusi/favicon.ico">
     <title>admin @ Aforismele lui Brâncuși</title>
 </head>
 <body class="d-flex justify-content-center bg-dark">
