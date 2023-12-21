@@ -75,14 +75,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- includem librariile CSS --->
+    <link href="/aforismele_lui_brancusi/static/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- importam libraria jQuery --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- importam libraria BootstrapJS --->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>admin @ Aforismele lui Brâncuși</title>
 </head>
-<body>
+<body class="d-flex justify-content-center bg-dark">
 
-    <form method="POST" class="flex-column d-flex gap-2">
-        <input name="user" class="form-control fw-bold border border-2 border-white rounded bg-transparent p-2 fs-4 text-white" style="" type="text" autocomplete="off" placeholder="User">
-        <input name="pass" class="form-control fw-bold border border-2 border-white rounded bg-transparent p-2 fs-4 text-white" style="" type="password" autocomplete="off" placeholder="Parola">
-        <button type="submit" class="btn btn-lg fs-4 btn-outline-light fw-bold">Conectează-te</button>
+    <form method="POST" class="flex-column d-flex gap-2 w-50 px-3 py-5" style="margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);">
+        <div class="invisible p-3">.</div>
+        <h1 class="fs-3 text-center text-galben">Conectează-te la panoul de administrare!</h1>
+        <input name="user" class="form-control fw-bold mb-2 text-secondary fs-4 bg-transparent" style="" type="text" autocomplete="off" placeholder="User">
+        <input name="pass" class="form-control fw-bold mb-2 text-secondary fs-4 bg-transparent" style="" type="password" autocomplete="off" placeholder="Parola">
+        <button type="submit" class="btn btn-lg fs-4 btn-outline-secondary fw-bold">Conectează-te</button>
+        <div class="invisible p-3">.</div>
     </form>
 
 </body>

@@ -33,7 +33,7 @@
         <li class="nav-item mb-2"><a href="inscrieri.php" class="nav-link p-0 text-secondary">Înscriere</a></li>
         <li class="nav-item mb-2"><a href="regulament.php" class="nav-link p-0 text-secondary">Regulament</a></li>
         <li class="nav-item mb-2"><a href="arhiva.php" class="nav-link p-0 text-secondary">Arhivă</a></li>
-        <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-secondary">Listă participanți</a></li>
+        <li class="nav-item mb-2"><a href="admin/" class="nav-link p-0 text-secondary">Listă participanți</a></li>
       </ul>
     </div>
   </footer>

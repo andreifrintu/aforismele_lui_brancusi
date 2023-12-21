@@ -60,6 +60,9 @@ a:hover > svg > #logo {
 .w-sm-90 {
     width: 50% !important;
 }
+.w-md-100 {
+    width: 75% !important;
+}
 
 @media (max-width: 425px) {
     .fl-cont {
@@ -69,6 +72,9 @@ a:hover > svg > #logo {
         width: 100% !important;
     }
     .w-sm-90 {
+        width: 90% !important;
+    }
+    .w-md-100 {
         width: 90% !important;
     }
 }
