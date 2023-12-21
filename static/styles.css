@@ -22,6 +22,18 @@ a {
 .bg-albastru {
     background-color: var(--oxford-blue) !important;
 }
+.btn-outline-secondary {
+    border-color: var(--blue-munsell) !important;
+    color: var(--blue-munsell) !important;
+}
+.btn-outline-secondary:hover {
+    background-color: var(--blue-munsell) !important;
+    color: var(--white) !important;
+}
+input, select {
+    color: var(--blue-munsell) !important;
+    border-color: var(--blue-munsell) !important;
+}
 a {
     transition: .2s;
 }
@@ -45,6 +57,9 @@ a:hover > svg > #logo {
     fill: var(--orange-pantone) !important;
     transition: .2s;
 }
+.w-sm-90 {
+    width: 50% !important;
+}
 
 @media (max-width: 425px) {
     .fl-cont {
@@ -52,5 +67,8 @@ a:hover > svg > #logo {
     }
     .w-sm-100 {
         width: 100% !important;
+    }
+    .w-sm-90 {
+        width: 90% !important;
     }
 }

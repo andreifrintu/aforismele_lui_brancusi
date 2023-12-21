@@ -13,6 +13,17 @@
         ! Pagina cu form de inscriere
     */
 
+    $db['mentenanta'] = true;
+    include("admin/config.php");
+          
+    /* init connection */
+    $conn = mysqli_connect($db['server'], $db['user'], $db['password'], $db['name']);
+    /* check connection activity */
+    if (!$conn) {
+        if ($db['mentenanta'] == true) echo "Website-ul este momentan în mentenanță. Revino mai tărziu!";
+        echo "Conexiunea a eșuat!";
+    }
+
     $router['page'] = "inscrieri";
 ?>
 <!DOCTYPE html>
@@ -29,9 +40,40 @@
 
     <div class="invisible p-3">.</div>
 
-    <h1 class="fs-4 text-center mt-2">Completează formularul de mai jos pentru a te înscrie la concursul național „Aforismele lui Brâncuși”</h1>
+    <h1 class="fs-4 text-center mt-2">Completează formularul de mai jos pentru a te înscrie la concursul național „<span class="text-galben">Aforismele lui Brâncuși</span>”</h1>
 
-    <div class="w-50 m-auto p-3">
+    <div class="w-sm-90 m-auto p-3">
+
+        <?php
+
+            if (isset($_POST['nume']) && isset($_POST['prenume']) && isset($_POST['email']) && isset($_POST['profesor']) && isset($_POST['clasa']) && isset($_POST['judet']) && isset($_POST['sectiune']) && isset($_FILES['material']))  {
+                
+                $nume = mysqli_real_escape_string($conn, $_POST['nume']);
+                $prenume = mysqli_real_escape_string($conn, $_POST['prenume']);
+                $email = mysqli_real_escape_string($conn, $_POST['email']);
+                $profesor = mysqli_real_escape_string($conn, $_POST['profesor']);
+                $clasa = mysqli_real_escape_string($conn, $_POST['clasa']);
+                $judet = mysqli_real_escape_string($conn, $_POST['judet']);
+                $sectiune = mysqli_real_escape_string($conn, $_POST['sectiune']);
+
+                $code = mysqli_real_escape_string($conn, sha1(mt_rand(100000, 999999)));
+                $file = ($sectiune == 'desen') ? "/aforismele_lui_brancusi/static/inscrieri/desen/" . $code : "/aforismele_lui_brancusi/static/inscrieri/eseu/" . $code;
+            
+                if ($_FILES['material']['error'] === UPLOAD_ERR_OK) {
+                    $path_parts = pathinfo($_FILES["material"]["name"]);
+                    $tempFile = $_FILES['material']['tmp_name'];
+                    $targetFile = $_SERVER['DOCUMENT_ROOT'] . $file . "." . $path_parts['extension'];
+                    
+                    if (move_uploaded_file($tempFile, $targetFile))
+                        mysqli_query($conn, "INSERT INTO `inscrieri`(`nume`, `prenume`, `clasa`, `judet`, `sectiune`, `email`, `profesor`, `material`) VALUES ('$nume', '$prenume', '$clasa', '$judet', '$sectiune', '$email', '$profesor', '$targetFile')");
+                    
+                    echo '<button class="btn btn-lg btn-success mb-2 w-100" disabled>Ai fost înscris cu success la sectiunea „' . $sectiune . '” a concursului!</button>';
+                } else 
+                echo '<button class="btn btn-lg btn-danger mb-2 w-100" disabled>A apărut o eroare la înscriere! Încearcă din nou!</button>';
+            }
+
+        ?>
+
         <form method="POST" enctype="multipart/form-data">
             <input required name="nume" type="text" class="form-control fw-bold mb-2 text-secondary" placeholder="Numele tău...">
             <input required name="prenume" type="text" class="form-control fw-bold mb-2 text-secondary" placeholder="Prenumele tău...">
@@ -100,7 +142,7 @@
             </select>
             <p class="mb-0 fs-6 fw-bold text-secondary text-justify">Încarcă <span id="span_material">materialul</span>...</p>
             <input required disabled required id="input_material" name="material" type="file" class="form-control fw-bold mb-2 text-secondary" accept="image/*">
-            <button type="submit" class="btn w-100 btn-outline-secondary">Înscrie-te</button>
+            <button type="submit" class="btn w-100 fw-bold btn-outline-secondary">Înscrie-te</button>
         </form>
     </div>
 
