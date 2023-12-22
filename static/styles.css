@@ -113,3 +113,46 @@ a:hover > svg > #logo {
         padding-right: 0px !important;
     }
 }
+.row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding: 0 4px !important;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25% !important;
+    max-width: 33.3% !important;
+    padding: 0 4px !important;
+  }
+  
+  .column img {
+    margin-top: 8px !important;
+    vertical-align: middle !important;
+    width: 100% !important;
+    filter: grayscale(1) brightness(0.5) !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: 0.3s linear !important;
+  }
+  .column img:hover {
+    filter: grayscale(0) !important;
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50% !important;
+      max-width: 50% !important;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100% !important;
+      max-width: 100% !important;
+    }
+    .column img {
+      filter: grayscale(0) brightness(1) !important;
+    }
+  }
+  
