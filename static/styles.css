@@ -84,18 +84,7 @@ a:hover > svg > #logo {
 .text-justify {
     text-align: justify !important;
 }
-.mobil {
-    display: none !important;
-}
-.mobilcollapse {
-    display: block;
-}
-.show {
-    display: block !important;
-}
-.collapsing {
-    display: block !important;
-}
+
 @media (max-width: 425px) {
     .fl-cont {
         flex-direction: column !important;
@@ -108,11 +97,5 @@ a:hover > svg > #logo {
     }
     .w-md-100 {
         width: 90% !important;
-    }
-    .mobil {
-        display: block !important;
-    }
-    .mobilcollapse {
-        display: none;
     }
 }

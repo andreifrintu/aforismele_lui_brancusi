@@ -14,7 +14,6 @@
     */
 
 ?>
-
 <!-- importam libraria jQuery --->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <!-- importam libraria BootstrapJS --->
@@ -57,22 +56,14 @@
             </g>
           </svg>
       </a>
-      <!-- meniu pentru device-urile mobile !-->
-      <div class="mobil">
-          <nav class="navbar-dark">
-          <button class="navbar-toggler border-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          </nav>
-      </div>
-      <div class="mobilcollapse w-sm-100 ms-lg-auto" id="navbarToggleExternalContent">
+
         <ul class="nav col-12 fl-cont col-lg-auto ms-lg-auto justify-content-center mb-md-0">
           <li><a href="/aforismele_lui_brancusi/" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'acasa') ? "disabled text-secondary" : ""; ?>">Acasă</a></li>
           <li><a href="inscrieri" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'inscrieri') ? "disabled text-secondary" : ""; ?>">Înscriere</a></li>
           <li><a href="regulament" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'regulament') ? "disabled text-secondary" : ""; ?>">Regulament</a></li>
           <li><a href="arhiva" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'arhiva') ? "disabled text-secondary" : ""; ?>">Arhivă</a></li>
         </ul>
-      </div>
+
       </div>
     </div>
   </header>
