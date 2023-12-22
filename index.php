@@ -30,7 +30,7 @@
     <div class="invisible p-3">.</div>
 
     <div class="m-auto w-sm-90">
-        <img src="static/imagini\logo/logo color 2023.png" class="me-auto img-fluid mt-5">
+        <img src="static/imagini\logo/logo color 2023.png" class="m-auto img-fluid">
     </div>
     
     <div class="invisible p-3">.</div>

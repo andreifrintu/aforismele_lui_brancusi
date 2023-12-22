@@ -14,24 +14,12 @@
     */
 
 ?>
-<!-- importam libraria jQuery --->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<!-- importam libraria BootstrapJS --->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<!-- CSS static -->
-<link rel="stylesheet" type="text/css" href="styles.css" />
-<!DOCTYPE html>
-<html lang="ro">
-  <body>
-  <header class="p-3 text-white bg-albastru">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center">
 
-      <a href="index.php">
-          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="auto" height="45px" viewBox="0 0 4000 4000" preserveAspectRatio="xMidYMid meet">
-            <g id="logo" transform="translate(0.000000,4000) scale(0.100000,-0.100000)" fill="#118b9eff" stroke="none">
+<nav class="navbar navbar-expand-md navbar-dark p-3 text-white bg-albastru" aria-label="Fourth navbar example">
+    <div class="container-fluid">
+      <a href="/aforismele_lui_brancusi/">
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="auto" height="45px" viewBox="0 0 3543 3543" preserveAspectRatio="xMidYMid meet">
+          <g id="logo" transform="translate(0.000000,3543) scale(0.100000,-0.100000)" fill="#118b9eff">
             <path d="M0 17715 l0 -17715 17715 0 17715 0 0 17715 0 17715 -17715 0 -17715
             0 0 -17715z m33065 0 l0 -15350 -15350 0 -15350 0 -3 15340 c-1 8437 0 15346
             3 15353 3 10 3079 12 15352 10 l15348 -3 0 -15350z"/>
@@ -53,19 +41,21 @@
             l0 -8770 -92 25 c-1966 529 -3691 1697 -4910 3325 -1414 1888 -2031 4228
             -1733 6577 290 2284 1450 4377 3240 5847 956 786 2049 1358 3261 1709 104 30
             199 55 212 55 l22 1 0 -8769z"/>
-            </g>
-          </svg>
+          </g>
+        </svg>
       </a>
 
-        <ul class="nav col-12 fl-cont col-lg-auto ms-lg-auto justify-content-center mb-md-0">
-          <li><a href="/aforismele_lui_brancusi/" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'acasa') ? "disabled text-secondary" : ""; ?>">Acasă</a></li>
-          <li><a href="inscrieri" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'inscrieri') ? "disabled text-secondary" : ""; ?>">Înscriere</a></li>
-          <li><a href="regulament" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'regulament') ? "disabled text-secondary" : ""; ?>">Regulament</a></li>
-          <li><a href="arhiva" class="w-100 fs-6 nav-link px-2 fw-bold text-uppercase <?php echo ($router['page'] == 'arhiva') ? "disabled text-secondary" : ""; ?>">Arhivă</a></li>
-        </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigatie" aria-controls="navigatie" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navigatie">
+        <ul class="nav col-12 fl-cont col-lg-auto ms-lg-auto justify-content-center mb-md-0 pt-3-md-none">
+          <li><a href="/aforismele_lui_brancusi/" class="w-100 fs-6 nav-link fw-bold text-uppercase <?php echo ($router['page'] == 'acasa') ? "disabled text-albastru" : ""; ?>">Acasă</a></li>
+          <li><a href="inscrieri" class="w-100 fs-6 nav-link fw-bold text-uppercase <?php echo ($router['page'] == 'inscrieri') ? "disabled text-albastru" : ""; ?>">Înscriere</a></li>
+          <li><a href="regulament" class="w-100 fs-6 nav-link fw-bold text-uppercase <?php echo ($router['page'] == 'regulament') ? "disabled text-albastru" : ""; ?>">Regulament</a></li>
+          <li><a href="arhiva" class="w-100 fs-6 nav-link fw-bold text-uppercase <?php echo ($router['page'] == 'arhiva') ? "disabled text-albastru" : ""; ?>">Arhivă</a></li>
+        </ul>
       </div>
     </div>
-  </header>
-  </body>
-</html>
+  </nav>

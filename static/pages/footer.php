@@ -15,11 +15,6 @@
 
 ?>
 
-<!-- importam libraria jQuery --->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<!-- importam libraria BootstrapJS --->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
 <div class="container d-flex flex-column w-sm-100 pb-2">
   <footer class="mt-auto fl-cont d-flex w-sm-100 justify-content-between flex-wrap pt-3 my-1 border-top">
     <div class="col-3 text-center w-sm-100">

@@ -77,7 +77,7 @@
         <form method="POST" enctype="multipart/form-data">
             <input required name="nume" type="text" class="form-control fw-bold mb-2 fs-5 text-secondary" placeholder="Numele tău...">
             <input required name="prenume" type="text" class="form-control fw-bold mb-2 fs-5 text-secondary" placeholder="Prenumele tău...">
-            <input required name="email" type="mail" class="form-control fw-bold mb-2 fs-5 text-secondary" placeholder="Email-ul tău...">
+            <input required name="email" type="email" class="form-control fw-bold mb-2 fs-5 text-secondary" placeholder="Email-ul tău...">
             <input required name="profesor" type="text" class="form-control fw-bold mb-2 fs-5 text-secondary" placeholder="Profesorul tău coordonator...">
             <select required name="clasa" id="clasa" class="form-select form-control fw-bold mb-2 fs-5 text-secondary">
                 <option selected>Clasa ta...</option>

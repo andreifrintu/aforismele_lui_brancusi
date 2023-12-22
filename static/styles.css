@@ -60,7 +60,7 @@ a.text-galben:hover {
     color: var(--oxford-blue) !important;
 }
 .nav-link {
-    color: var(--white) !important;
+    color: var(--white);
     transition: .2s;
 }
 .nav-link:hover {
@@ -84,6 +84,9 @@ a:hover > svg > #logo {
 .text-justify {
     text-align: justify !important;
 }
+.pt-md-none {
+    padding: 0px !important;
+}
 
 @media (max-width: 425px) {
     .fl-cont {
@@ -97,5 +100,12 @@ a:hover > svg > #logo {
     }
     .w-md-100 {
         width: 90% !important;
+    }
+    .pt-3-md-none {
+        padding-top: 1rem;
+    }
+    .nav-link {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
