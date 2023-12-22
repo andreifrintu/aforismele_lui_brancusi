@@ -130,13 +130,9 @@ a:hover > svg > #logo {
     margin-top: 8px !important;
     vertical-align: middle !important;
     width: 100% !important;
-    filter: grayscale(1) brightness(0.5) !important;
     border-radius: 5px !important;
     cursor: pointer !important;
     transition: 0.3s linear !important;
-  }
-  .column img:hover {
-    filter: grayscale(0) !important;
   }
   @media screen and (max-width: 800px) {
     .column {
@@ -150,9 +146,6 @@ a:hover > svg > #logo {
     .column {
       flex: 100% !important;
       max-width: 100% !important;
-    }
-    .column img {
-      filter: grayscale(0) brightness(1) !important;
     }
   }
   
