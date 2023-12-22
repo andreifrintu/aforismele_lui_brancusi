@@ -48,6 +48,10 @@ ul {
     background-color: var(--blue-munsell) !important;
     color: var(--white) !important;
 }
+.form-check-input:checked {
+    border-color: var(--blue-munsell) !important;
+    background-color: var(--blue-munsell) !important;
+}
 input, select {
     color: var(--blue-munsell) !important;
     border-color: var(--blue-munsell) !important;

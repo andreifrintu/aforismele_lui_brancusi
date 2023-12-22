@@ -142,7 +142,11 @@
             </select>
             <p class="mb-0 fs-6 fw-bold fs-5 text-secondary text-justify">Încarcă <span id="span_material">materialul</span>...</p>
             <input required disabled required id="input_material" name="material" type="file" class="form-control fw-bold mb-2 fs-5 text-secondary" accept="image/*">
-            <button type="submit" class="btn w-100 fw-bold fs-5 btn-outline-secondary">Înscrie-te</button>
+            <div class="form-check form-switch mb-2">
+                <input class="form-check-input" type="checkbox" role="switch" id="prelucrare">
+                <label class="form-check-label" for="prelucrare" class="fs-5 fw-bold">Sunt de acord cu prelucrarea datelor!</label>
+            </div>
+            <button disabled type="submit" id="trimitere" class="btn w-100 fw-bold fs-5 btn-outline-secondary">Înscrie-te</button>
         </form>
     </div>
 
@@ -187,6 +191,16 @@
                     $('#input_material').prop('disabled', true);
                     $('#input_material').val('');
                 }
+            });
+            $('#prelucrare').change(function() {
+                if (this.checked)
+                    $('#trimitere').prop('disabled', false);
+                else
+                    $('#trimitere').prop('disabled', true);
+            });
+            $('form').submit(function(event) {
+                if (!($('#prelucrare').is(':checked')))
+                    event.preventDefault();
             });
         });
     </script>
