@@ -43,10 +43,10 @@
                 $_SESSION['pass'] = $storedPassword;
                 header("Location: index.php");
             } else {
-                echo "Parolă sau user greșit!";
+                echo "<script>alert('Parolă sau user greșit!')</script>";
             }
         } else {
-            echo "Utilizator invalid!";
+            echo "<script>alert('Utilizator invalid!')</script>";
         }
     
     }
@@ -86,8 +86,10 @@
     <link rel="icon" type="image/x-icon" href="/aforismele_lui_brancusi/favicon.ico">
     <title>admin @ Aforismele lui Brâncuși</title>
 </head>
-<body class="d-flex justify-content-center bg-dark">
+<body class="bg-dark">
 
+    <a href="/aforismele_lui_brancusi/index.php" style="margin-left: 10% !important"><button type="button"class="btn mx-start mt-5 btn-lg fs-4 btn-outline-secondary fw-bold">Acasă</button></a>
+    <div class="d-flex justify-content-center container">
     <form method="POST" class="flex-column d-flex gap-2 w-50 px-3 py-5" style="margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%);">
         <div class="invisible p-3">.</div>
         <h1 class="fs-3 text-center text-galben">Conectează-te la panoul de administrare!</h1>
@@ -96,6 +98,7 @@
         <button type="submit" class="btn btn-lg fs-4 btn-outline-secondary fw-bold">Conectează-te</button>
         <div class="invisible p-3">.</div>
     </form>
+    </div>
 
 </body>
 </html>

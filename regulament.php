@@ -87,6 +87,7 @@
         </ul>
     </div>
     
+    <div class="invisible p-3">.</div>
     <!-- includem componenta de footer --->
     <?php include_once('static/pages/footer.php'); ?>
 

@@ -51,9 +51,9 @@
       </div>
     </div>
   </div>
-    <div class="invisible p-3">.</div>
+  <div class="invisible p-3">.</div>
     <!-- includem componenta de footer --->
-    <?php include_once('static/pages/footer.php'); ?>
+  <?php include_once('static/pages/footer.php'); ?>
 
 </body>
 </html>
