@@ -91,7 +91,16 @@ a:hover > svg > #logo {
 .pt-md-none {
     padding: 0px !important;
 }
-
+.image-hover {
+    transition: 0.6s;
+    opacity: 0;
+}
+.image-hover-container:hover .image-hover {
+    opacity: 1;
+}
+.image-hover-container:hover img {
+    filter: grayscale(80%);
+}
 @media (max-width: 425px) {
     .fl-cont {
         flex-direction: column !important;
