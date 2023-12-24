@@ -146,13 +146,18 @@
                 <input class="form-check-input" type="checkbox" role="switch" id="prelucrare">
                 <label class="form-check-label" for="prelucrare" class="fs-5 fw-bold">Sunt de acord cu prelucrarea datelor!</label>
             </div>
-            <button disabled type="submit" id="trimitere" class="btn w-100 fw-bold fs-5 btn-outline-secondary">Înscrie-te</button>
+            <span class="popover" tabindex="0" data-bs-content="Disabled popover">
+                <button disabled type="submit" id="trimitere" class="btn w-100 fw-bold fs-5 btn-outline-secondary">Înscrie-te</button>
+            </span>
         </form>
     </div>
 
     <div class="invisible p-3">.</div>
 
     <script>
+        let myPopover = new bootstrap.Popover('.popover', {
+            trigger: 'hover focus'
+        });
         $(document).ready(function() {
             $('#clasa').change(function () {
                 if ($(this).val() != 'Clasa ta...')
@@ -193,10 +198,16 @@
                 }
             });
             $('#prelucrare').change(function() {
-                if (this.checked)
+                if (this.checked) {
                     $('#trimitere').prop('disabled', false);
-                else
+                    myPopover.dispose();
+                }
+                else {
                     $('#trimitere').prop('disabled', true);
+                    myPopover = new bootstrap.Popover('.popover', {
+                        trigger: 'hover focus'
+                    });
+                }
             });
             $('form').submit(function(event) {
                 if (!($('#prelucrare').is(':checked')))
