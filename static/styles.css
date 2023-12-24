@@ -101,6 +101,10 @@ a:hover > svg > #logo {
 .image-hover-container:hover img {
     filter: grayscale(80%);
 }
+.image-hover > p {
+    text-shadow: 0 0 3px var(--orange-pantone), 0 0 5px var(--orange-pantone) !important;
+    color: var(--white);
+}
 @media (max-width: 425px) {
     .fl-cont {
         flex-direction: column !important;

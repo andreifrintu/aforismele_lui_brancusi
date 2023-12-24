@@ -32,7 +32,7 @@
       <div class="column">
         <div class="image-hover-container position-relative d-flex">
           <img  src="https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
-          <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute text-white ">
+          <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
             <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
             <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
           </div>
