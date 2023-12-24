@@ -32,9 +32,10 @@
     <div class="m-auto w-sm-90">
         <img src="static/imagini\logo/logo color 2023.png" class="m-auto img-fluid">
     </div>
-    <h2 class="fs-1 fw-bold text-albastru text-center">Profesori coordonatori:</h2>
-    <h3 class="fs-3 text-albastru text-center">Prof. Mitica Gabriela</h3>
-    <h3 class="fs-3 text-albastru text-center">Prof. Chiliban Denisa</h3>
+    <h1 class="fs-2 text-albastru text-center">Simpozionul Național Aforismele lui Brâncuși</h1>
+    <h2 class="fs-3 fw-bold text-albastru text-center">Profesori coordonatori:</h2>
+    <h3 class="fs-5 text-albastru text-center">Prof. Mititica Gabriela</h3>
+    <h3 class="fs-5 text-albastru text-center">Prof. Chiliban Denisa</h3>
     
     <div class="invisible p-3">.</div>
 
