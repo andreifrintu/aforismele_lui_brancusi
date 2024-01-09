@@ -146,7 +146,7 @@
                 <input class="form-check-input" type="checkbox" role="switch" id="prelucrare">
                 <label class="form-check-label" for="prelucrare" class="fs-5 fw-bold">Sunt de acord cu prelucrarea datelor!</label>
             </div>
-            <span class="popover" tabindex="0" data-bs-content="Disabled popover">
+            <span class="popover" tabindex="0" data-bs-content="Te rog confirma termenii și condițiile">
                 <button disabled type="submit" id="trimitere" class="btn w-100 fw-bold fs-5 btn-outline-secondary">Înscrie-te</button>
             </span>
         </form>
