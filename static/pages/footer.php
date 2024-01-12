@@ -19,7 +19,7 @@
   <footer class="mt-auto fl-cont d-flex w-sm-100 justify-content-between flex-wrap pt-3 my-1 border-top">
     <div class="col-3 text-center w-sm-100">
       <a href="https://cntv-edu.ro/" class=""><img src="static/imagini\logo/logo cntv.png" class="m-auto w-100"></a>
-      <p>&reg; Aforismele lui Brâncuși - Colegiul Național „Tudor Vladimirescu” Târgu Jiu</p>
+      <p class="pt-1">&reg; Aforismele lui Brâncuși - Colegiul Național „Tudor Vladimirescu” Târgu Jiu</p>
     </div>
     <div class="col-3 align-items-end w-sm-100">
       <h5 class="text-end text-galben">Secțiuni din site</h5>

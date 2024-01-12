@@ -93,15 +93,21 @@ a:hover > svg > #logo {
 }
 .image-hover {
     transition: 0.6s;
+    visibility: hidden !important;
     opacity: 0 !important;
     top:50%;
     transform: translateY(0) !important;
 }
 .image-hover-container:hover .image-hover {
     opacity: 1 !important;
+    visibility:visible !important;
     transform: translateY(-50%) !important;
 }
-.image-hover-container:hover img {
+.image-hover-container {
+    margin-top: 8px !important;
+    overflow: hidden !important;
+}
+.image-hover-container:hover img{
     filter: grayscale(80%);
 }
 .image-hover > p {
@@ -144,7 +150,6 @@ a:hover > svg > #logo {
   }
   
   .column img {
-    margin-top: 8px !important;
     vertical-align: middle !important;
     width: 100% !important;
     border-radius: 5px !important;
