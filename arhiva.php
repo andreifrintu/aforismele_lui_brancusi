@@ -31,105 +31,121 @@
     <div class="row">
       <div class="column">
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+          <img  src="static/imagini/arhiva/2-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/2419375/pexels-photo-2419375.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img  src="static/imagini/arhiva/4-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/2326290/pexels-photo-2326290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img  src="static/imagini/arhiva/5-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/3251006/pexels-photo-3251006.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img  src="static/imagini/arhiva/12-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/1980720/pexels-photo-1980720.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-          <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute ">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+          <img  src="static/imagini/arhiva/14-2022.jpg" />
+          <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
+          </div>
+        </div>
+        <div class="image-hover-container position-relative d-flex">
+          <img  src="static/imagini/arhiva/18-2022.jpg" />
+          <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
       </div>
       <div class="column">
-      <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/1980720/pexels-photo-1980720.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        <div class="image-hover-container position-relative d-flex">
+          <img  src="static/imagini/arhiva/1-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/2019546/pexels-photo-2019546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+          <img  src="static/imagini/arhiva/7-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/3889868/pexels-photo-3889868.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img  src="static/imagini/arhiva/9-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/2091160/pexels-photo-2091160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+          <img  src="static/imagini/arhiva/10-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
+          </div>
+        </div>
+        <div class="image-hover-container position-relative d-flex">
+          <img  src="static/imagini/arhiva/17-2022.jpg" />
+          <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
+          </div>
+        </div>
+        <div class="image-hover-container position-relative d-flex">
+          <img  src="static/imagini/arhiva/19-2022.jpg" />
+          <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
+          </div>
+        </div>
+        <div class="image-hover-container position-relative d-flex">
+          <img  src="static/imagini/arhiva/16-2022.jpg" />
+          <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
       </div>
       <div class="column">
-      <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/2350514/pexels-photo-2350514.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        <div class="image-hover-container position-relative d-flex">
+          <img  src="static/imagini/arhiva/3-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/259987/pexels-photo-259987.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img  src="static/imagini/arhiva/8-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/3779785/pexels-photo-3779785.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img  src="static/imagini/arhiva/11-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/2360569/pexels-photo-2360569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img  src="static/imagini/arhiva/13-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
         <div class="image-hover-container position-relative d-flex">
-          <img  src="https://images.pexels.com/photos/3889868/pexels-photo-3889868.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img  src="static/imagini/arhiva/15-2022.jpg" />
           <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
-            <p class="mx-auto fs-5 d-block">Tudorescu Ioan Daniel</p>
-            <p class="mx-auto fs-7">Colegiul National "Tudor Vladimirescu"</p>
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
+          </div>
+        </div>
+        <div class="image-hover-container position-relative d-flex">
+          <img  src="static/imagini/arhiva/6-2022.jpg" />
+          <div class="image-hover d-flex justify-content-center items-align-center flex-column w-100 h-100 mx-auto my-auto position-absolute">
+            <p class="mx-auto fs-3 fw-bold d-block">2022</p>
           </div>
         </div>
       </div>
