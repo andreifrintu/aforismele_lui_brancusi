@@ -32,5 +32,5 @@
       </ul>
     </div>
   </footer>
-  <div class="m-auto gap-2 text-center mb-0"><span>&copy; dezvoltat de</span><br><a class="text-galben" href="https://codulluiandrei.ro/">@andreifrintu</a> <a class="text-galben" href="#">Daniel Tudorescu</a> <a class="text-galben" href="#">David Petreuș</a></div>
+  <div class="m-auto gap-2 text-center mb-0"><span>&copy; dezvoltat de</span><br><a class="text-galben" href="https://codulluiandrei.ro/">@andreifrintu</a> <a class="text-galben" href="https://www.linkedin.com/in/tudorescu-ioan-daniel-747b59235/">@ioandanieltudorescu</a> <a class="text-galben" href="#">David Petreuș</a></div>
 </div>
